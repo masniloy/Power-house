@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "image": "https://media.istockphoto.com/photos/holding-weight-and-sitting-picture-id1277242852?b=1&k=20&m=1277242852&s=170667a&w=0&h=JRJsVDFKO_i9omBAMNySqCfwvRTB-yeVrjJY2jd7JZw=",
+        "name": "Dumble",
+        "description": "Weight lifting with dumbbells lowers your risk of heart attack, stroke, and cardiovascular disease. Since strength training builds lean muscle mass, it helps you burn fat. Better sleep. Using dumbbells in the gym can lead to improved shut-eye.",
+        "for_age": "18-40",
+        "time": 5
+    },
+    {
+        "id": 2,
+        "image": "https://media.istockphoto.com/photos/beautiful-woman-exercising-at-the-gym-running-on-a-treadmill-picture-id840874994?b=1&k=20&m=840874994&s=170667a&w=0&h=1Vcn5Xq-DFZNp3th1OeXEYgVTyjCQJ4FexAQ3ImNXPA=",
+        "name": "Running",
+        "description": "Jogging or running is a popular form of physical activity. About one in 5 Australians try running (or jogging) at some stage in their life. Running is an appealing exercise because it doesn't cost a lot to take part and you can run at any time that suits you.",
+        "for_age": "15-50",
+        "time": 7
+    },
+    {
+        "id": 3,
+        "image": "https://media.istockphoto.com/photos/gym-training-on-stationary-bikes-picture-id1127485222?b=1&k=20&m=1127485222&s=170667a&w=0&h=VPp0PcfbDx_pfOPilz0PapiSSDil-EQ3jxg1ZZ21NAM=",
+        "name": "Cycling",
+        "description": "Cycling is mainly an aerobic activity, which means that your heart, blood vessels and lungs all get a workout. You will breathe deeper, perspire and experience increased body temperature, which will improve your overall fitness level.",
+        "for_age": "12-50",
+        "time": 15
+    },
+    {
+        "id": 4,
+        "image": "https://media.istockphoto.com/photos/black-female-athlete-doing-stretching-exercises-while-warming-up-with-picture-id1339701353?b=1&k=20&m=1339701353&s=170667a&w=0&h=C3HJ-XDk9fqSHwy1_U6b2bnvwosdx7yBsT8MmbUUjQI=",
+        "name": "Yoga",
+        "description": "Yoga is a type of exercise in which you move your body into various positions in order to become more fit or flexible, to improve your breathing, and to relax your mind.",
+        "for_age": "18-40",
+        "time": 20
+    },
+    {
+        "id": 4,
+        "image": "https://media.istockphoto.com/photos/fit-senior-man-in-gym-working-his-abs-doing-crunches-picture-id647574848?k=20&m=647574848&s=612x612&w=0&h=2oE8b1qELD_G5Ftb9tok1ECs8wQ1r5ur8A2BJIZOlmk=",
+        "name": "Crunch",
+        "description": "The crunch is a classic core exercise. It specifically trains your abdominal muscles, which are part of your core. Your core consists not only of your abs. It also includes your oblique muscles on the sides of your trunk",
+        "for_age": "20-40",
+        "time": 5
+    },
+    {
+        "id": 4,
+        "image": "https://media.istockphoto.com/photos/be-as-strong-as-you-were-born-to-be-picture-id1279902517?k=20&m=1279902517&s=612x612&w=0&h=RlVc-49u3noWYHy0XE4IHvRuKD3_kfelklxIGrYz9bI=",
+        "name": "Battle Ropes",
+        "description": "Battle ropes target most of the muscles in your body, including those in your abdominals, shoulders, arms, upper and lower back, and lower body ( 1 , 2 ). If you're looking to target a specific area, you can change how you swing the ropes.",
+        "for_age": "18-40",
+        "time": 1
+    }
+]
