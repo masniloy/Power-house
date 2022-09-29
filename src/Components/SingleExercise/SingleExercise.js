@@ -3,6 +3,7 @@ import './SingleExercise.css'
 
 const SingleExercise = (props) => {
     const { name, image, description, for_age, time } = props;
+
     return (
         <div>
             <div className='WorkCard'>
@@ -11,7 +12,7 @@ const SingleExercise = (props) => {
                 <p>{description}</p>
                 <p>Age: {for_age}</p>
                 <p>Time: {time}m</p>
-                <button className='btn '>Add To List</button>
+                <button onClick={() => props.ExerciseDetail(props)} className='btn'>Add To List</button>
 
             </div>
         </div>
