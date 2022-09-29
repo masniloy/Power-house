@@ -65,15 +65,25 @@ const Exercise = () => {
                         <h2>24</h2>
                         <p>yrs</p>
                     </div>
-
-
                 </div>
                 <div>
-                    <h4>Exercise Details</h4>
-                    <p>total time: {totalTime}</p>
+                    <h4>Add a Break</h4>
+                </div>
+                <div className='buttons'>
+                    <button>2m</button>
+                    <button>4m</button>
+                    <button>8m</button>
+                    <button>10m</button>
+                    <button>12m</button>
                 </div>
 
+                <div className='timing'>
+                    <h4>Exercise Details</h4>
+                    <h5>Exercise Time: {totalTime}</h5>
+                    <h5>Break Time: { }</h5>
+                </div>
 
+                <button className='done'>Activity Completed</button>
 
             </div>
         </div>
