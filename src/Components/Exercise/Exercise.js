@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './Exercise.css'
 import SingleExercise from '../SingleExercise/SingleExercise';
 import frofile from './niloy.jpeg'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Exercise = () => {
     const [exercises, setexercise] = useState([]);
@@ -48,7 +50,11 @@ const Exercise = () => {
         setextratime(freak)
     }
 
-
+    const showToastMessage = () => {
+        toast.success('Congratulation you complete your exercise !', {
+            position: toast.POSITION.TOP_RIGHT
+        });
+    };
 
     return (
         <div className='fullBody'>
@@ -106,7 +112,8 @@ const Exercise = () => {
                     <h5>Break Time: {extratime}</h5>
                 </div>
 
-                <button className='done'>Activity Completed</button>
+                <button onClick={showToastMessage} className='done'>Activity Completed</button>
+                <ToastContainer />
 
             </div>
         </div>
