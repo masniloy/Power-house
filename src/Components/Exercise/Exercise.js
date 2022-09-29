@@ -108,8 +108,8 @@ const Exercise = () => {
 
                 <div className='timing'>
                     <h4>Exercise Details</h4>
-                    <h5>Exercise Time: {totalTime}</h5>
-                    <h5>Break Time: {extratime}</h5>
+                    <h5>Exercise Time: {totalTime} minute</h5>
+                    <h5>Break Time: {extratime} minute</h5>
                 </div>
 
                 <button onClick={showToastMessage} className='done'>Activity Completed</button>
