@@ -63,20 +63,21 @@
 .buttons button {
     height: 50px;
     width: 50px;
-    background-color: wheat;
+    background-color: white;
     margin: 2px;
     border-radius: 25px;
+
 }
 
 .done {
     height: 50px;
     width: 100%;
-    background-color: #454545;
+    background-color: white;
     align-items: center;
     padding: 10px;
-    color: wheat;
+
     border-radius: 10px;
-    border: none;
+
     margin-top: 30px;
 }
 
