@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Exercise.css'
 import SingleExercise from '../SingleExercise/SingleExercise';
+import frofile from './niloy.jpeg'
 
 const Exercise = () => {
     const [exercises, setexercise] = useState([]);
@@ -21,8 +22,13 @@ const Exercise = () => {
 
     }
 
+    let totalTime = 0;
+    for (const time of exerciseTime) {
+        totalTime = totalTime + time;
+    }
+
     return (
-        <div>
+        <div className='fullBody'>
             <div>
                 <h3>Select today's exercise</h3>
 
@@ -41,8 +47,33 @@ const Exercise = () => {
 
                 </div>
             </div>
-            <div>
-                <h1>total time: {exerciseTime}</h1>
+            <div className='result container '>
+                <div className='user'>
+                    <img src={frofile} alt="imag" />
+                    <h3>M. A. SAIMUN</h3>
+                </div>
+                <div className='deteils justify-content-between'>
+                    <div className='kg'>
+                        <h2>73</h2>
+                        <p>kg</p>
+                    </div>
+                    <div className='kg'>
+                        <h2>67</h2>
+                        <p>inch</p>
+                    </div>
+                    <div className='kg'>
+                        <h2>24</h2>
+                        <p>yrs</p>
+                    </div>
+
+
+                </div>
+                <div>
+                    <h4>Exercise Details</h4>
+                    <p>total time: {totalTime}</p>
+                </div>
+
+
 
             </div>
         </div>
