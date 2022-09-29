@@ -12,7 +12,7 @@ const Exercise = () => {
     }, [])
     return (
         <div>
-            <h3>Select today's exercise {exercises.length}</h3>
+            <h3>Select today's exercise</h3>
 
             <div className='exercise-container'>
                 {
