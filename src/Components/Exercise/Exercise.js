@@ -6,6 +6,7 @@ import frofile from './niloy.jpeg'
 const Exercise = () => {
     const [exercises, setexercise] = useState([]);
     const [exerciseTime, setexercisetime] = useState([]);
+    const [extratime, setextratime] = useState(0)
 
 
 
@@ -26,6 +27,28 @@ const Exercise = () => {
     for (const time of exerciseTime) {
         totalTime = totalTime + time;
     }
+    const button2 = () => {
+        let freak = 2;
+        setextratime(freak)
+    }
+    const button4 = () => {
+        let freak = 4;
+        setextratime(freak)
+    }
+    const button6 = () => {
+        let freak = 6;
+        setextratime(freak)
+    }
+    const button8 = () => {
+        let freak = 8;
+        setextratime(freak)
+    }
+    const button10 = () => {
+        let freak = 10;
+        setextratime(freak)
+    }
+
+
 
     return (
         <div className='fullBody'>
@@ -70,17 +93,17 @@ const Exercise = () => {
                     <h4>Add a Break</h4>
                 </div>
                 <div className='buttons'>
-                    <button>2m</button>
-                    <button>4m</button>
-                    <button>8m</button>
-                    <button>10m</button>
-                    <button>12m</button>
+                    <button onClick={button2}>2m</button>
+                    <button onClick={button4}>4m</button>
+                    <button onClick={button6}>6m</button>
+                    <button onClick={button8}>8m</button>
+                    <button onClick={button10}>10m</button>
                 </div>
 
                 <div className='timing'>
                     <h4>Exercise Details</h4>
                     <h5>Exercise Time: {totalTime}</h5>
-                    <h5>Break Time: { }</h5>
+                    <h5>Break Time: {extratime}</h5>
                 </div>
 
                 <button className='done'>Activity Completed</button>
