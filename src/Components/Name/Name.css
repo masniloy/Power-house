@@ -1,0 +1,14 @@
+#logo {
+    width: 120px;
+    height: 120px;
+}
+
+.name {
+    display: inline-flex;
+    align-items: center;
+}
+
+#lname {
+    color: #454545;
+    /* color: #e6923a; */
+}
